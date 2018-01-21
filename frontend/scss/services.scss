@@ -1,0 +1,61 @@
+@import "default";
+@import "fonts";
+
+.content{
+	.text{
+		.line{
+			height: 2px;
+		}
+	}
+	padding-top: 60px;
+	.container{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-wrap: wrap;
+		padding: 65px 0;
+		.box{
+			display: flex;
+			justify-content: space-between;
+			//align-items: center;
+			width: 35%;
+			//padding-right: 65px;
+			padding-top: 55px;
+			margin: 0 auto;
+			.avatar{
+				padding-right: 16px;
+				img{
+					
+				}
+			}
+			.text-block{
+				margin: 0;
+				text-align: left;
+				.title{
+					padding: 0;
+					color: #000000;
+					font-family: Lato;
+					font-size: 20px;
+					font-weight: 400;
+					padding-bottom: 20px;
+				}
+				.description{
+					padding: 0;
+					color: #606060;
+					font-family: "Open Sans";
+					font-size: 14px;
+					font-weight: 400;
+					line-height: 22px;
+				}
+				a{
+					color: #606060;
+					font-family: "Open Sans";
+					font-size: 14px;
+					font-weight: 400;
+					line-height: 28px;
+					text-decoration: underline;
+				}
+			}
+		}
+	}
+}

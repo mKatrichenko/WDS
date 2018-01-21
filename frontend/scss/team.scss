@@ -1,0 +1,53 @@
+@import "default";
+@import "fonts";
+
+.content{
+	
+	.container{
+		display: flex;
+		justify-content: center;
+		//align-items: center;
+		flex-wrap: wrap;
+		margin: 0 12%;
+		.box{
+			display: flex;
+			flex-direction: column;
+			//justify-content: center;
+			align-items: center;
+			width: 225px;
+			margin: 30px 10px;
+			.avatar{
+				width: auto;
+			}
+			.text{
+				
+				.name{
+					color: #000000;
+					font-family: "Open Sans";
+					font-size: 16px;
+					font-weight: 400;
+					line-height: 22px;
+					margin: 18px 0;
+				}
+				.about{
+					color: #606060;
+					font-family: "Open Sans";
+					font-size: 12px;
+					font-weight: 400;
+					line-height: 18px;
+					margin-bottom: 25px;
+				}
+			}
+			.sm{
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				.fa{
+					width: 14px;
+					height: 18px;
+					margin: 0 8px;
+				}
+			}
+		}
+	}
+}

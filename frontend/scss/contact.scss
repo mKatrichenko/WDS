@@ -1,0 +1,126 @@
+@import "default";
+@import "fonts";
+
+.content{
+	.text{
+		padding-bottom: 0;
+	}
+	.container{
+		margin: 0 5%;
+		display: flex;
+		flex-wrap: wrap;
+		align-items: flex-start;
+		.contact-form{
+			width: 40%;
+			display: flex;
+			flex-direction: column;
+			margin-top: 63px;
+			margin-right: 40px;
+			min-width: 350px;
+			.text-block{
+				width: 100%;
+				margin-bottom: 22px;
+				.title{
+					color: #000000;
+					font-family: Lato;
+					font-size: 20px;
+					font-weight: 400;
+				}
+				.description{
+					color: #606060;
+					font-family: "Open Sans";
+					font-size: 14px;
+					font-weight: 400;
+					line-height: 22px;
+				}
+			}
+			input{
+				width: 100%;
+				background-color: #edf1f2;
+				border-radius: 3px;
+				box-shadow: none;
+				margin-bottom: 7px;
+				padding-left: 15px;
+				padding-bottom: 10px;
+				padding-top: 12px;
+				outline: none;
+				border-style: solid;
+				border: none;
+			}
+			.name{
+				
+			}
+			.mail{
+			
+			}
+			.message{
+				padding-bottom: 190px;
+			}
+			.btn{
+				color: #ffffff;
+				font-family: "Open Sans";
+				font-size: 14px;
+				font-weight: 400;
+				line-height: 22px;
+				text-transform: uppercase;
+				background-color: #2980b9;
+				padding: 17px 0;
+				width: 50%;
+				text-align: center;
+				border-radius: 3px;
+				cursor:pointer;
+			}
+			.btn:hover{
+				background-color: rgba(41, 128, 185, 0.5);
+			}
+		}
+		.adress-form{
+			margin-top: 63px;
+			width: 40%;
+			display: flex;
+			flex-direction: column;
+			align-items: flex-start;
+			justify-content: flex-start;
+			min-width: 350px;
+			.text-block{
+				
+				.title{
+					color: #000000;
+					font-family: Lato;
+					font-size: 20px;
+					font-weight: 400;
+					
+				}
+				.description{
+					color: #606060;
+					font-family: "Open Sans";
+					font-size: 14px;
+					font-weight: 400;
+					line-height: 1.43;
+					margin-bottom: 20px;
+				}
+				p{
+					color: #606060;
+					font-family: "Open Sans";
+					font-size: 14px;
+					font-weight: 400;
+					line-height: 1.43;
+					margin: 0;
+				}
+				.map{
+					width: 100%;
+				}
+			}
+		}
+	}
+}
+@media screen and (max-width : 400px){
+	.content{
+		.container{
+			margin: 0 3%;
+			.contact-form{
+				margin-right: 0;
+			}
+		}
+	}
+}
