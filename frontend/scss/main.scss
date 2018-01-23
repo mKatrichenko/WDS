@@ -1,5 +1,3 @@
-@import "default";
-@import "fonts";
 
 
 .header{
@@ -27,11 +25,8 @@
 		.preview:before{
 			content: "";
 			position: absolute;
-            //top:calc(50% + 6px);
 			top: 8px;
-            //left: 43.5%;
 			left: -16px;
-            //transform: translateX(-50%);
 			width: 6px;
 			height: 6px;
 			background-color: #ffffff;
@@ -42,9 +37,7 @@
 			content: "";
 			position: absolute;
             top: 8px;
-            //right: 43%;
 			right: -16px;
-            //transform: translateX(-50%);
 			width: 6px;
 			height: 6px;
 			background-color: #ffffff;
@@ -123,24 +116,24 @@
 		}
 	}
 }
-
-.nav{
-	background-color: #fff;
-	.menu{
-		.menu-el{
-			
-		}
-		#logo{
-			color: #000;
+.main{
+	.nav{
+		background-color: #fff;
+		.menu{
+			#logo{
+				color: #000;
+			}
 		}
 	}
 }
 @media screen and (max-width : 700px){
-	.nav{
-		.menu{
-		}
-		.pull{
-			color: #000;
+	.main{	
+		.nav{
+			.menu{
+			}
+			.pull{
+				color: #000;
+			}
 		}
 	}
 }
@@ -149,7 +142,6 @@
 	padding-top: 60px;
 	padding-bottom: 66px;
 	background-image: url(../img/background.png);
-	//background-repeat: repeat-x;
 	width: 100%;
 	.text{
 		padding-bottom: 93px;
@@ -162,14 +154,11 @@
 		.box{
 			height: 120px;
 			width: 120px;
-			//padding-right: 60px;
 			display: flex;
 			justify-content: center;
 			align-items: center;
 			flex-direction: column;
 			.avatar{
-				//width: 32px;
-				//height: 32px;
 				font-size: 31px;
 				padding-bottom: 30px;
 				text-align: center;
@@ -209,13 +198,9 @@
 			margin: 0 auto;
 			width: 80%;
 			.slide{
-				//width: 20%;
 				box-sizing: border-box;
 				height: 70px;
 				margin-right: 50px;
-				img{
-					//width: 200px;
-				}
 			}
 			.slick-arrow{
 				background: url(../img/arrow.png) no-repeat, #fff;

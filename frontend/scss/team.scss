@@ -1,18 +1,14 @@
-@import "default";
-@import "fonts";
 
-.content{
-	
+.team{
+ .content{	
 	.container{
 		display: flex;
 		justify-content: center;
-		//align-items: center;
 		flex-wrap: wrap;
 		margin: 0 12%;
 		.box{
 			display: flex;
 			flex-direction: column;
-			//justify-content: center;
 			align-items: center;
 			width: 225px;
 			margin: 30px 10px;
@@ -50,4 +46,5 @@
 			}
 		}
 	}
+ }
 }

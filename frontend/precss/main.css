@@ -1,0 +1,217 @@
+.header {
+  width: 100%;
+  background-color: #2f3030;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  padding-bottom: 186px; }
+  .header .text {
+    text-align: center;
+    padding-top: 161px;
+    padding-bottom: 78px; }
+    .header .text .preview {
+      margin: 0 auto;
+      color: #ffffff;
+      font-family: Lato;
+      font-size: 16px;
+      font-weight: 300;
+      position: relative;
+      width: 100px; }
+    .header .text .preview:before {
+      content: "";
+      position: absolute;
+      top: 8px;
+      left: -16px;
+      width: 6px;
+      height: 6px;
+      background-color: #ffffff;
+      opacity: 0.5;
+      border-radius: 100%; }
+    .header .text .preview:after {
+      content: "";
+      position: absolute;
+      top: 8px;
+      right: -16px;
+      width: 6px;
+      height: 6px;
+      background-color: #ffffff;
+      opacity: 0.5;
+      border-radius: 100%; }
+    .header .text .title {
+      color: #ffffff;
+      font-family: "Lato-Black";
+      font-size: 50px;
+      font-weight: 400;
+      text-transform: uppercase;
+      padding: 20px 0; }
+    .header .text .description {
+      color: #ffffff;
+      font-family: Lato;
+      font-size: 16px;
+      font-weight: 300;
+      position: relative;
+      width: 300px;
+      margin: 0 auto;
+      padding-top: 0; }
+    .header .text .description:before {
+      content: "";
+      position: absolute;
+      top: 8px;
+      right: -120px;
+      width: 100px;
+      height: 2px;
+      opacity: 0.5;
+      border: 1px solid rgba(255, 255, 255, 0.5);
+      border-right: none;
+      border-left: none; }
+    .header .text .description:after {
+      content: "";
+      position: absolute;
+      top: 8px;
+      left: -120px;
+      width: 100px;
+      height: 2px;
+      opacity: 0.5;
+      border: 1px solid rgba(255, 255, 255, 0.5);
+      border-right: none;
+      border-left: none; }
+  .header .btn {
+    width: 240px;
+    color: #ffffff;
+    text-align: center;
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 300;
+    text-transform: uppercase;
+    border: 1px solid #ffffff;
+    background-color: #2f3030;
+    opacity: 0.5;
+    line-height: 50px;
+    cursor: pointer; }
+
+@media screen and (max-width: 540px) {
+  .header .text .description:before {
+    display: none; }
+  .header .text .description:after {
+    display: none; } }
+
+.main .nav {
+  background-color: #fff; }
+  .main .nav .menu #logo {
+    color: #000; }
+
+@media screen and (max-width: 700px) {
+  .main .nav .pull {
+    color: #000; } }
+
+.adventages {
+  padding-top: 60px;
+  padding-bottom: 66px;
+  background-image: url(../img/background.png);
+  width: 100%; }
+  .adventages .text {
+    padding-bottom: 93px; }
+  .adventages .table {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap; }
+    .adventages .table .box {
+      height: 120px;
+      width: 120px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column; }
+      .adventages .table .box .avatar {
+        font-size: 31px;
+        padding-bottom: 30px;
+        text-align: center; }
+    .adventages .table .box:hover .avatar .fa {
+      font-size: 51px;
+      color: #2980b9; }
+    .adventages .table .box:hover .description {
+      color: #2980b9;
+      font-family: "Open Sans";
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 22px;
+      white-space: nowrap; }
+    .adventages .table .box:last-child {
+      padding-right: 0; }
+
+.clients {
+  padding: 85px 0; }
+  .clients .text {
+    padding-bottom: 72px; }
+  .clients .slider-container .slider-form {
+    margin: 0 auto;
+    width: 80%; }
+    .clients .slider-container .slider-form .slide {
+      -webkit-box-sizing: border-box;
+      box-sizing: border-box;
+      height: 70px;
+      margin-right: 50px; }
+    .clients .slider-container .slider-form .slick-arrow {
+      background: url(../img/arrow.png) no-repeat, #fff;
+      background-position: 55% center;
+      position: absolute;
+      top: 50%;
+      -webkit-transform: translateY(-50%);
+      transform: translateY(-50%);
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      font-size: 0px;
+      z-index: 10;
+      height: 23px;
+      width: 14px;
+      -webkit-box-shadow: none;
+      box-shadow: none;
+      border: none;
+      -webkit-box-sizing: border-box;
+      box-sizing: border-box;
+      cursor: pointer; }
+    .clients .slider-container .slider-form .slick-prev {
+      left: -25px;
+      -webkit-transform: translateY(-50%) rotate(180deg);
+      transform: translateY(-50%) rotate(180deg); }
+    .clients .slider-container .slider-form .slick-next {
+      right: -25px; }
+    .clients .slider-container .slider-form .slick-arrow:focus {
+      outline: none;
+      border: none; }
+    .clients .slider-container .slider-form .slick-prev:hover {
+      background: url(../img/arrow-hover.png) no-repeat, #fff;
+      -webkit-transform: translateY(-50%) rotate(0deg);
+      transform: translateY(-50%) rotate(0deg); }
+    .clients .slider-container .slider-form .slick-next:hover {
+      background: url(../img/arrow-hover.png) no-repeat, #fff;
+      -webkit-transform: translateY(-50%) rotate(180deg);
+      transform: translateY(-50%) rotate(180deg); }

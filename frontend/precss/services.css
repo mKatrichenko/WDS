@@ -1,0 +1,53 @@
+.services .content {
+  padding-top: 60px; }
+  .services .content .text .line {
+    height: 2px; }
+  .services .content .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding: 65px 0; }
+    .services .content .container .box {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+      justify-content: space-between;
+      width: 35%;
+      padding-top: 55px;
+      margin: 0 auto; }
+      .services .content .container .box .avatar {
+        padding-right: 16px; }
+      .services .content .container .box .text-block {
+        margin: 0;
+        text-align: left; }
+        .services .content .container .box .text-block .title {
+          padding: 0;
+          color: #000000;
+          font-family: Lato;
+          font-size: 20px;
+          font-weight: 400;
+          padding-bottom: 20px; }
+        .services .content .container .box .text-block .description {
+          padding: 0;
+          color: #606060;
+          font-family: "Open Sans";
+          font-size: 14px;
+          font-weight: 400;
+          line-height: 22px; }
+        .services .content .container .box .text-block a {
+          color: #606060;
+          font-family: "Open Sans";
+          font-size: 14px;
+          font-weight: 400;
+          line-height: 28px;
+          text-decoration: underline; }

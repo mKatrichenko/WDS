@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'Lato-Black';
-  src: url("../../../../../fonts/Lato-Black.ttf") format("truetype");
+  src: url("../../../../fonts/Lato-Black.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
@@ -15,14 +15,14 @@
 
 @font-face {
   font-family: 'Open Sans';
-  src: url("../../../../../fonts/OpenSans-Regular.ttf") format("truetype");
+  src: url("../../../../fonts/OpenSans-Regular.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Lato';
-  src: url("../../../../../fonts/Lato-Regular.ttf") format("truetype");
+  src: url("../../../../fonts/Lato-Regular.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
@@ -527,14 +527,14 @@ div {
 }
 @font-face {
   font-family: 'Lato';
-  src: url("../../../../fonts/Lato.ttf") format("truetype");
+  src: url("../../../fonts/Lato.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Lato-Black';
-  src: url("../../../fonts/Lato-Black.ttf") format("truetype");
+  src: url("../../fonts/Lato-Black.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
@@ -549,7 +549,7 @@ div {
 
 @font-face {
   font-family: 'Open Sans';
-  src: url("../../../../fonts/OpenSans-Regular.ttf") format("truetype");
+  src: url("../../../fonts/OpenSans-Regular.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
@@ -708,7 +708,7 @@ div {
 .adventages {
   padding-top: 60px;
   padding-bottom: 66px;
-  background-image: url("../../../../img/background.png");
+  background-image: url("../../../img/background.png");
   width: 100%;
 }
 
@@ -793,7 +793,7 @@ div {
 }
 
 .clients .slider-container .slider-form .slick-arrow {
-  background: url("../../../../img/arrow.png") no-repeat, #fff;
+  background: url("../../../img/arrow.png") no-repeat, #fff;
   background-position: 55% center;
   position: absolute;
   top: 50%;
@@ -830,13 +830,13 @@ div {
 }
 
 .clients .slider-container .slider-form .slick-prev:hover {
-  background: url("../../../../img/arrow-hover.png") no-repeat, #fff;
+  background: url("../../../img/arrow-hover.png") no-repeat, #fff;
   -webkit-transform: translateY(-50%) rotate(0deg);
   transform: translateY(-50%) rotate(0deg);
 }
 
 .clients .slider-container .slider-form .slick-next:hover {
-  background: url("../../../../img/arrow-hover.png") no-repeat, #fff;
+  background: url("../../../img/arrow-hover.png") no-repeat, #fff;
   -webkit-transform: translateY(-50%) rotate(180deg);
   transform: translateY(-50%) rotate(180deg);
 }

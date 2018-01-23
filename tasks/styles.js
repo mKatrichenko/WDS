@@ -17,7 +17,7 @@ const sourcemaps = require('gulp-sourcemaps');
 module.exports = function(options) {
 	return function() {  
 		return combine(
-      gulp.src(options.src),
+      gulp.src(options.src, {since: gulp.lastRun(options.taskName)}),
       autoprefixer({
         browsers: ['last 2 versions'],
         cascade: false
@@ -25,7 +25,7 @@ module.exports = function(options) {
       //sourcemaps.init(),                     
       sass(),                     
       //sourcemaps.write('./maps'),  	       
-		gulp.dest('frontend/assets/css')
+		gulp.dest('frontend/precss')
     ).
 		on('error', notify.onError());
   };

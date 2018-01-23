@@ -1,16 +1,14 @@
 @font-face {
   font-family: 'Lato';
-  src: url('../fonts/Lato.ttf') format('truetype');
+  src: url("../fonts/Lato.ttf") format("truetype");
   font-weight: normal;
-  font-style: normal;
-}
+  font-style: normal; }
 
 @font-face {
   font-family: 'Lato-Black';
-  src: url('./fonts/Lato-Black.ttf') format('truetype');
+  src: url("./fonts/Lato-Black.ttf") format("truetype");
   font-weight: normal;
-  font-style: normal;
-}
+  font-style: normal; }
 
 /*
 @font-face {
@@ -19,13 +17,12 @@
   font-weight: normal;
   font-style: normal;
 }*/
-
 @font-face {
   font-family: 'Open Sans';
-  src: url('../fonts/OpenSans-Regular.ttf') format('truetype');
+  src: url("../fonts/OpenSans-Regular.ttf") format("truetype");
   font-weight: normal;
-  font-style: normal;
-}
+  font-style: normal; }
+
 /*
 @font-face {
   font-family: 'Lato';

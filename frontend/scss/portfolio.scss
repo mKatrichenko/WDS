@@ -1,5 +1,4 @@
-@import "default";
-@import "fonts";
+
 
 .content{
 	
@@ -25,11 +24,13 @@
 	}
 }
 @media screen and (max-width : 400px){
-	.content{
-		.container{
-			margin: 0 3%;
-			.box{
-				width: 100%;
+	.portfolio{
+		.content{
+			.container{
+				margin: 0 3%;
+				.box{
+					width: 100%;
+				}
 			}
 		}
 	}
