@@ -137,6 +137,10 @@ div {
   .nav .pull {
     display: none; }
 
+@media screen and (max-width: 1200px) {
+  .nav .menu .menu-el {
+    padding-right: 50px; } }
+
 @media screen and (max-width: 960px) {
   .nav .menu .menu-el {
     padding-right: 30px; } }

@@ -110,4 +110,6 @@
   .contact .content .container {
     margin: 0 3%; }
     .contact .content .container .contact-form {
-      margin-right: 0; } }
+      margin-right: 0; }
+      .contact .content .container .contact-form .btn {
+        width: 100%; } }
